@@ -1,0 +1,20 @@
+{
+    "name": "sk7/blog-php",
+    "description": "Blog on PHP and MySQL",
+    "autoload": {
+        "psr-4": {
+            "Sk7\\BlogPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sorbon Kurbonov",
+            "email": "sorbonkurbonov7@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6"
+    }
+}
